@@ -17,7 +17,7 @@ void loop() {
    
   int low = 255;
   
-  int high = 1023;
+  int high = 512;
 
    soundSensed = analogRead(soundState);// convert the fluctuating sound to 0-1,023 -10 bits
   
