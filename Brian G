@@ -30,7 +30,7 @@ void loop() {
 if (soundSensed > low ){ 
 
      digitalWrite(blue_leds, HIGH);
-     Serial.print("soundState low:"); 
+     Serial.print("soundState:"); 
      Serial.println(soundSensed);
    
 }else{
@@ -42,7 +42,7 @@ if (soundSensed > low ){
 }
  if (soundSensed < high){
      digitalWrite(red_leds, HIGH);
-  Serial.print("soundState high:"); 
+  Serial.print("soundState:"); 
   
   Serial.println(soundSensed);
    
