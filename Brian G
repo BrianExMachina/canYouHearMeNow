@@ -34,12 +34,12 @@ if (soundSensed > low ){
      Serial.println(soundSensed);
    
 }else{
-   delay(100);
+   
       digitalWrite(blue_leds, LOW);
       digitalWrite(red_leds, HIGH);
-      delay(100);
-   }
-
+      
+   
+}
  if (soundSensed < high){
      digitalWrite(red_leds, HIGH);
   Serial.print("soundState high:"); 
@@ -50,8 +50,8 @@ if (soundSensed > low ){
     delay(100);
       digitalWrite(red_leds, LOW);
       digitalWrite(blue_leds, HIGH);
-      delay(100);
+      
    }
-
+        delay(100);
 
 }
