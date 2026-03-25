@@ -1,10 +1,11 @@
-## Video Demo
-https://github.com/BrianExMachina/canYouHearMeNow/blob/main/soundSensorTest%232.mov
 
 # Arduino Sound Sensor LED Indicator
 
 ## Overview
 This Arduino sketch reads audio input from a sound sensor module and uses two LEDs (blue and red) to visually indicate the detected sound level in real time.
+
+## Video Demo
+https://github.com/BrianExMachina/canYouHearMeNow/blob/main/soundSensorTest%232.mov
 
 ---
 
