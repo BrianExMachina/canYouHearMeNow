@@ -1,9 +1,9 @@
     #define soundState A1 //attach the data pin labled OUT to pin A1
     
     int soundSensed;// create a global variable called soundSensed
-    int red_leds = 5;
+    int blue_leds = 5;
 
-    int blue_leds = 2;
+    int red_leds = 2;
 
 void setup() {
     pinMode(blue_leds, OUTPUT);
