@@ -46,10 +46,10 @@ The sketch continuously reads the sound sensor's analog output (a value from **0
 
 | Condition | Blue LED | Red LED |
 |---|---|---|
-| Sound level **above** `low` (255) | ON | OFF |
-| Sound level **below** `low` (255) | OFF | ON |
-| Sound level **below** `high` (600) | OFF | ON |
-| Sound level **above** `high` (600) | ON | OFF |
+| Sound level **above** `low` (255) |OFF| ON |
+| Sound level **below** `low` (255) | ON | OFF |
+| Sound level **below** `high` (600) | ON | OFF |
+| Sound level **above** `high` (600) | OFF | ON |
 
 In simple terms:
 - **Blue LED ON** → Sound is being detected at a normal or loud level
