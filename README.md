@@ -15,8 +15,8 @@ https://github.com/user-attachments/assets/32e7bbf6-f9ab-4af0-be68-a427372417f8
 |---|---|
 | Arduino board (Uno, Nano, etc.) | 1 |
 | Sound sensor module (with OUT pin) | 1 |
-| Blue LED | 1 |
-| Red LED | 1 |
+| Blue LED | 10 |
+| Red LED | 10 |
 | Jumper wires | Several |
 
 ---
